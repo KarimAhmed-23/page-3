@@ -494,6 +494,13 @@ font-family: '29lt_bukrabold_italic';
 
 .swiper-container-2  .swiper-pagination-bullet{width: 7px !important; height: 7px !important}
 
+@media (max-width:650px){
+    
+  .swiper-container-2.swiper-container-3d{perspective: 300px !important;-webkit-perspective:300px}
+  
+}
+
+
 .our-services{
     padding: 2em 0;
     position: relative;
