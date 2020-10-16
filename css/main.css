@@ -94,7 +94,6 @@ body{
     font-family: "cairo", "Open Sans", sans-serif;
     direction: rtl;
     text-align: right;
-        background-color: var(--main-bg) !important;
 
 }
 .select2-container {

@@ -3,7 +3,6 @@ body {
   text-align: right;
   unicode-bidi: embed;
   direction: rtl;
-    background-color: var(--main-bg) !important;
 
 
 }
