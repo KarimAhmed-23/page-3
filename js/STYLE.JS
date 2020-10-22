@@ -197,10 +197,15 @@ responsive: [
 
 
     $(".service-item-2").matchHeight();
+    
+    $(".blog-content").matchHeight();
+
     $(".blog-content p").matchHeight();
 
-        $(".footer-menu-ul").matchHeight();
-     
+            $(".footer-menu h5").matchHeight();
+
+             $(".footer-menu-ul").matchHeight();
+
        $('.counter').counterUp({
     delay: 20, // the delay time in ms
     time: 1000 // the speed time in ms
