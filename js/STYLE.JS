@@ -15,6 +15,12 @@ $(window).on("load", function(){
 
 
 $(document).ready(function () {
+	
+	
+	    $(".language").click(function(){
+    $(".dropdown-conutry").slideToggle();
+}) ;
+    
        
 $('.slider-1').slick({
   dots: false,
@@ -22,7 +28,7 @@ $('.slider-1').slick({
   accessibility: true,
   speed: 500,
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   rtl:true,
   prevArrow:'<span class="prev-arrow"><i class="fas fa-angle-right"></i></span>',
   nextArrow:'<span class="next-arrow"><i class="fas fa-angle-left"></i></span>',
@@ -33,7 +39,7 @@ $('.slider-1').slick({
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
    
@@ -98,7 +104,7 @@ $('.slider-2').slick({
   accessibility: true,
   speed: 500,
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   rtl:true,
   prevArrow:'<span class="prev-arrow"><i class="fas fa-angle-right"></i></span>',
   nextArrow:'<span class="next-arrow"><i class="fas fa-angle-left"></i></span>',
@@ -109,7 +115,7 @@ responsive: [
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
    
@@ -146,36 +152,29 @@ $('.blog-slider').slick({
   accessibility: true,
   speed: 500,
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   rtl:true,
   prevArrow:'<span class="prev-arrow"><i class="fas fa-angle-right"></i></span>',
   nextArrow:'<span class="next-arrow"><i class="fas fa-angle-left"></i></span>',
 
-responsive: [
-        {
+ responsive: [
+   
+    {
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
-      }
-    },
-   
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
     {
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
     {
-      breakpoint:490,
+      breakpoint:481,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -183,7 +182,7 @@ responsive: [
     }
  
   ]
-    
+	
     
     
 });
@@ -196,12 +195,11 @@ responsive: [
             $(".service").matchHeight();
 
 
-    $(".service-item-2").matchHeight();
+    $(".service-item-2 p").matchHeight();
     
     $(".blog-content").matchHeight();
 
-    $(".blog-content p").matchHeight();
-
+    
             $(".footer-menu h5").matchHeight();
 
              $(".footer-menu-ul").matchHeight();
